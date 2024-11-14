@@ -11,7 +11,7 @@ export default function Hero() {
             className="img hover:scale-105 duration-300 ease-linear mt-7 cursor-pointer rounded-full object-cover object-center mx-auto sm:w-[22rem] w-[16rem]"
             width={500}
             height={500}
-            src={("/assets/picture/3.jpeg")}
+            src="/assets/picture/3.jpeg"
             alt={"hero"}
           />
         </div>
@@ -51,7 +51,7 @@ export default function Hero() {
                 {/* <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-containt object-center rounded-md"
-                  src={("/assets/picture/Web-Design-.png")}
+                  src="/assets/picture/Web-Design-.png"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 /> */}
