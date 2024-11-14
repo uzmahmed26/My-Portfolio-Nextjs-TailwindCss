@@ -120,7 +120,7 @@ export default function Hero() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center bg-sky-600 rounded-md"
-                  src={("/assets/picture/cal.png")}
+                  src="/assets/picture/cal.png"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
