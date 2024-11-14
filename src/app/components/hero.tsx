@@ -51,14 +51,14 @@ export default function Hero() {
                 {/* <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-containt object-center rounded-md"
-                  src="/assets/picture/Web-Design-.png"
+                  src="/assets/picture/wd.png"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 /> */}
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src={("/assets/picture/web-Design-.png")}
+                  src="/assets/picture/wd.png"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
