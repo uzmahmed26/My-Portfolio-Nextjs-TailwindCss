@@ -37,8 +37,8 @@ export default function Hero() {
       {/* 2nd */}
 
 
-      <div id="project">
-      <section className="text-gray-600 body-font">
+      <div className="flex flex-wrap -m-5 -mt-[5rem] gap-6" id="project" >
+      <section className="text-gray-600 body-font px-28">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-5xl text-2x1 font-medium title-font mb-4 text-gray-900 bg-gray-200 p-5">
@@ -48,17 +48,10 @@ export default function Hero() {
           <div className="flex flex-wrap -m-5 -mt-[5rem]">  
           <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
-                {/* <Image
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-containt object-center rounded-md"
-                  src="/assets/picture/wd.png"
-                  width={400}  // Dynamic value with curly brackets
-                  height={400}  // Dynamic value with curly brackets
-                /> */}
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src="/assets/picture/wd.png"
+                  src="/assets/picture/web.jpg"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
@@ -88,7 +81,7 @@ export default function Hero() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src={("/assets/picture/atm-insert-card.jpg")}
+                  src="/assets/picture/atm-insert-card.jpg"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
@@ -120,9 +113,9 @@ export default function Hero() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center bg-sky-600 rounded-md"
-                  src="/assets/picture/cal.png"
-                  width={400}  // Dynamic value with curly brackets
-                  height={400}  // Dynamic value with curly brackets
+                  src="/assets/picture/cal.jpg"
+                  width={200}  // Dynamic value with curly brackets
+                  height={200}  // Dynamic value with curly brackets
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-gray-200 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -150,7 +143,7 @@ export default function Hero() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src={("/assets/picture/quiz.png")}
+                  src="/assets/picture/quiz.jpg"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
@@ -181,7 +174,7 @@ export default function Hero() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src="/assets/picture/student.png"
+                  src="/assets/picture/st.jpg"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
@@ -211,7 +204,7 @@ export default function Hero() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src={("/assets/picture/oop.png")}
+                  src="/assets/picture/sl.jpg"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
@@ -242,7 +235,7 @@ export default function Hero() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src={("/assets/picture/todo.jpg")}
+                  src="/assets/picture/todo.jpg"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
@@ -273,7 +266,7 @@ export default function Hero() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src={("/assets/picture/gassing.jpg")}
+                  src="/assets/picture/gassing.jpg"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
@@ -305,7 +298,7 @@ export default function Hero() {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src={("/assets/picture/wc.png")}
+                  src="/assets/picture/wc.jpg"
                   width={400}  // Dynamic value with curly brackets
                   height={400}  // Dynamic value with curly brackets
                 />
